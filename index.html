@@ -124,6 +124,17 @@
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+            /* optionnel : coins arrondis */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            /* optionnel : ombre douce */
+        }
+
         @media (max-width: 500px) {
             .pdf-container::after {
                 content: "📄 Cliquez pour voir en plein écran si le PDF est trop petit";
@@ -149,14 +160,21 @@
         <ul>
             <li>Expérience amusante réalisé dans les locaux du <a href="https://maps.app.goo.gl/sw1fkGjQSAv9Knjr9"
                     target="_blank" rel="noopener noreferrer"> CEPSUM.</a> </li>
-            <li>100 % sécuritaire</li>
+            <li>Tous les jours du lundi au vendredi de 9h à 19h. (éventuellement les fins de semaine)</li>
             <li>Votre enfant, en votre présence portera de petits marqueurs collés et sera filmé pendant qu’il effectue
                 des gestes du quotidien</li>
             <li>L'expérience dure 1 heure environ.</li>
             <li>Une compensation sera offerte pour sa participation.</li>
 
         </ul>
+
+
     </div>
+    <div class="section">
+        <img src="Affiche_recrutement_2025-07-09_B-12_page1.jpg" alt="Enfant participant à l'étude"
+            class="responsive-img">
+    </div>
+
     <div class="section">
         <h2>Documents</h2>
         <p>
@@ -184,13 +202,6 @@
 
     </div>
 
-    <div class="section">
-        <h2>Voir le dépliant PDF</h2>
-        <iframe src="Affiche_recrutement_2025-07-09_B.pdf" width="100%" height="800px" style="border: none;">
-            Ce navigateur ne supporte pas les PDF intégrés.
-            <a href="Affiche_recrutement_2025-07-09_B.pdf">Télécharger le PDF</a>.
-        </iframe>
-    </div>
 
 
     <footer>
